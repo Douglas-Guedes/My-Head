@@ -30,3 +30,18 @@ body {
 #img:hover {
     transform: scale(1.05);
 }
+.contatos {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contatos a {
+    color: #fff;
+    font-size: 1.8rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contatos a:hover {
+    color: #ffd700;
+    transform: translateY(-3px);
+}
